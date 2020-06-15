@@ -34,6 +34,7 @@ func _exit_tree():
 	print("_exit_tree() is called")
 
 # 3. If input is recieved it will call this method
+# Tip: when you press the play button, move your mouse really fast until print to console finishes
 func _input(event):
 	if counter3 < 1:
 		print("_input() is called")
